@@ -1,0 +1,5 @@
+git status    ver lo que tengo
+git add .     añadir
+git status    verificar si ya se añadio
+git commit -m "nombre del archivo"
+git push -u origin main   ya quede insertado el archivo
