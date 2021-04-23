@@ -9,7 +9,7 @@
 
 email=False
 
-for i in "mateopildorasinformaticas.es":
+for i in "mateo@pildorasinformaticas.es":
     
     if(i=="@"):
         
