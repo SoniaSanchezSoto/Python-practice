@@ -1,0 +1,25 @@
+from turtle import *
+title("Carrera de tortugas")
+setup(600, 600, 100, 10)
+setheading(towards(10, 0))
+shape("turtle")
+bgcolor("plum2")
+tortu = getturtle()
+tortu.color("red")
+turtle = Turtle()
+turtle.shape("turtle")
+turtle.left(90)
+turtle.speed(0)
+turtle.up()
+turtle.goto(250, 50)
+turtle.down()
+turtle.color("green2","blue")
+count = 1
+while tortu.distance(turtle) > 5:
+    turtle.fd(4.5)
+    turtle.lt(4.2)
+    turtle.right(3)
+    tortu.setheading(tortu.towards(turtle))
+    tortu.fd(4)
+
+mainloop()
